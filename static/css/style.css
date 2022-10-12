@@ -36,7 +36,11 @@ body {
     background-color: var(--light-gray) !important;/*No es buena practica, pero bueno antes de colocar una mala practica en el html, prefiero hacerlo acá*/
     font-family: 'Roboto', sans-serif !important;
 }
-
+/*              Header                  */
+.skip-color {
+    color: var(--green-700);
+    font-weight: bold;
+}
 /*              Navbar              */
 .nav-item > .nav-link {
     color: var(--green-700);

@@ -45,6 +45,29 @@ body {
 .nav-item > .nav-link {
     color: var(--green-700);
 }
+/*              Sidebar              */
+.sidebar {
+    background-color: var(--green-700);
+    min-height: 90vh;
+    width: 15em;
+}
+.list-sidebar{
+    flex-grow: 1;
+    text-align: center;
+}
+.list-sidebar-item {
+    color: var(--white);
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.list-sidebar-item:hover{
+    background-color: var(--white);
+    color: var(--green-700);
+    width: 15em;
+}
+
 /*              Utilities             */
 .bg-black {   
     background-color: var(--black);
